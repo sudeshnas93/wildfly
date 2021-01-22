@@ -28,7 +28,12 @@ import static org.jboss.logging.Logger.Level.WARN;
 
 import java.security.Permission;
 
-import javax.naming.*;
+import javax.naming.Context;
+import javax.naming.InvalidNameException;
+import javax.naming.Name;
+import javax.naming.NameNotFoundException;
+import javax.naming.NamingException;
+import javax.naming.OperationNotSupportedException;
 import javax.naming.spi.ObjectFactory;
 
 import org.jboss.as.controller.OperationFailedException;
